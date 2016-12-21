@@ -1,0 +1,36 @@
+/*-------------------->> HEADER <<--------------------*/
+
+header{
+    height: 250px;
+}
+
+.fondo{
+    background: url(../images/4.jpg) no-repeat;
+    background-size: cover;
+    background-position: 0% 61%;
+    height: 1000px;
+}
+
+.formulario {
+    margin-left: 500px;
+    padding-top: 250px;
+    font-family: 'Raleway', sans-serif;
+    
+   }
+
+label {
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-family: cursive;
+    font-family: 'Oswald', sans-serif;
+}
+
+.laboratoria {
+    width: 200px;
+    margin-bottom: 20px;
+    background-color: rgba(216, 226, 226, 0.46);
+    border-radius: 10px;
+}
