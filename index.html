@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Objetivo del Squad: 80%</title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Oswald|Raleway" rel="stylesheet">
+	<script src="main.js"></script>
+</head>
+<body>
+    <section class="fondo">
+    <div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+			<img src="images/logo.png" alt="" class="laboratoria">
+                <h1>Completa el formulario</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-5 col-md-offset-2">
+				<div class="form-group">
+					<label for="dia">¿El mono a está sonriendo?</label>
+					<select class="form-control" id="monoa">
+						<option value="1">Si</option>
+						<option value="2">No</option>
+						
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="vacaciones">¿El mono b esta sonriendo?</label>
+					<select class="form-control" id="monob">
+						<option value="1">Si</option>
+						<option value="2">No</option>
+					</select>
+				</div>
+				<button onclick="calcular()" class="btn btn-warning">Evaluar</button>
+				
+				<h4 class="text-info text-center" style="color:sandybrown;">Estás en </h4>
+				<div id="salida" style="font-size:50px; color:sandybrown;" class="text-center">-</div>
+				<h4 class="text-info text-center" style="color:sandybrown;">problemas</h4>
+			</div>
+    </div>
+    </div>
+   </section> 
+</body>
+</html>

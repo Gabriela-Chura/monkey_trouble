@@ -9,28 +9,22 @@ header{
     background-size: cover;
     background-position: 0% 61%;
     height: 1000px;
+    padding-left: 300px;
 }
-
-.formulario {
-    margin-left: 500px;
-    padding-top: 250px;
-    font-family: 'Raleway', sans-serif;
-    
-   }
 
 label {
-    color: white;
+    color: sandybrown;
 }
 
-h1 {
-    color: white;
+h1, h4 {
+    color: sandybrown;
     font-family: cursive;
     font-family: 'Oswald', sans-serif;
 }
 
 .laboratoria {
+    margin-top: 100px;
     width: 200px;
-    margin-bottom: 20px;
-    background-color: rgba(216, 226, 226, 0.46);
-    border-radius: 10px;
+    background-color: rgba(216, 226, 226, 0.19);
+    border-radius: 6px;
 }
