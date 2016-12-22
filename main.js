@@ -3,30 +3,21 @@ function calcular()
 	var monoa = document.getElementById("monoa").value;
 	var monob = parseInt(document.getElementById("monob").value);
 
-	var isMonoa = false;
-	var isMonob = false;
+	var a = monoa, monob;
+	var b = monoa, monob;
 
 	var salida = document.getElementById("salida");
 
-	if(monoa == "1")
+	if(monoa = "1")
 	{
-		isMonoa = true;
+		a = true;
 	}
 
-	if(monob == "1")
-	{
-		isMonob = true;
-	}
-
-	if(isMonoa)
-	{
-		salida.innerHTML = "1";
-	}else{
-		if(isMonob)
-		{
-			salida.innerHTML = "0";
-		}else{
-			salida.innerHTML = "1";
-		}
-	}
+	if(a == monoa && b ==monob){
+        salida.innerHTML =1;
+    } else if(a != monoa && b != monob){
+        salida.innerHTML =1; 
+    } else{
+        salida.innerHTML = 0;
+    }
 }
