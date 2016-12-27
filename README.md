@@ -10,7 +10,11 @@ Ejercicio -3
 - salida(trouble)
 
 ## Proceso
-- Si monoa y monob sonrien o estan triste tenemos problemas
-    -Y si solo uno sonrie o esta triste no tenemos problemas. 
+- Obtener bSmile
+- Obtener aSmile
+- Si bSmile es igual aSmile entonces
+    Estamos en problemas, mostrar 1.
+-Si no 
+    No estamos en problemas, mostrar 0.
 
 *Fin* 

@@ -28,3 +28,8 @@ h1, h4 {
     background-color: rgba(216, 226, 226, 0.19);
     border-radius: 6px;
 }
+
+.enlace {
+    color: black;
+     font-family: 'Oswald', sans-serif;
+}
